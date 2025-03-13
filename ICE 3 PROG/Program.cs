@@ -1,0 +1,10 @@
+﻿namespace ICE_3_PROG
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
