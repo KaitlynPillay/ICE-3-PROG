@@ -8,5 +8,6 @@ namespace ICE_3_PROG
 {
     interface IShape
     {
+        double CalculateArea();
     }
 }

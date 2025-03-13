@@ -8,5 +8,17 @@ namespace ICE_3_PROG
 {
     class Shape
     {
+        public string Name { get; set; }
+
+        public Shape(string name)
+        {
+            Name = name;
+        }
+
+        public virtual void Display()
+        {
+            Console.WriteLine($"Shape: {Name}");
+        }
     }
 }
+
